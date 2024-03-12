@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page - Teija <span>Wareham</span></title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body onload="setInterval(changeColor,1000)">
+ 
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+                  
+        </ul>
+
+    </nav>
+
+    <header>
+
+        <h1 id="a">About Me</h1>
+        <!--Text color changes every second using function and getElementById-->
+    </header>
+
+    <main>
+
+        <h2>Teija Wareham aka <span>"Tei Smoove"</span> </h2>
+
+        <p>I am a student athlete currently attending  
+            <a href="https://www.humber.ca/">Humber College</a> in Ontario. I am currently studying Graphic Design.<span id="dots">...</span> <span id="more"> I have attended <a href="https://www.humber.ca/">Humber College</a> since 2019. 
+            <br>
+            Combining my passion for athletics with my love for visual arts and creativity, I find fulfillment in the dynamic intersection of sports and design. Balancing the demands of training, competitions, and coursework, I have developed invaluable skills in time management, discipline, and teamwork. Immersed in the vibrant creative community at Humber College, I collaborate with talented peers and experienced instructors to refine my skills in digital design, typography, and visual storytelling. As I represent Humber College in intercollegiate sports, I am fueled by resilience and a strong work ethic, striving for excellence both on and off the field. Looking ahead, I aspire to create visually captivating designs that make a positive impact, evoking emotion and inspiring change. My journey as a student athlete studying Graphic Design has been an incredible opportunity for personal growth, academic excellence, and the pursuit of my passions, and I eagerly anticipate embracing new challenges and contributing to the world of design and athletics in meaningful ways.</span></p>
+        </p>
+        <button type="button" id="myBtn" onclick="myFunction()">Read More</button>
+        <!--Here is the text "Read More" button using both function and getElementById-->
+        <br><br>
+
+
+
+
+        <img src="images/teija2.jpeg" class="responsive" onmouseover="changeImage(1, this)" onmouseout="changeImage(2, this)" width="400px">
+        <!--Here is my image change with onmouseover and onmouseout with string variable and integer-->
+
+        <h3>Activities I Like</h3>
+            
+        <ul>
+            <li>Playing Basketball</li>
+            <li>Walks on a nice night</li>
+            <li>Eating at AYCE Sushi Restaurants</li>
+            <li>Spending Time with my Girlfriend and Dog</li>
+        </ul>
+
+        <img src="images/teija3.jpg" width="400">
+
+        <p>Favorite Artists in Order</p>
+
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Michael_Jackson">
+                Michael Jackson
+            </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kehlani">
+                Kehlani
+            </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/J.I_the_Prince_of_N.Y">
+                JI Prince of NY
+            </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/A_Boogie_wit_da_Hoodie">
+                A Boogie
+            </a></li>
+        </ol>
+
+        <p class="stars">
+            &starf; 
+            &starf;
+            &starf;
+            &starf;
+            &starf;
+        </p>
+
+    </main>
+
+    <footer>
+
+        Teija Wareham - &copy; 2022
+
+    </footer>
+    
+</body>
+</html>

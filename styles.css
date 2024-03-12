@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+
+h1{
+    color: yellow;
+    background-color:black;
+    padding: 10px;
+    text-align: center;
+    font-family: Alkalami;
+
+}
+
+h1 span {
+    color: #f00;
+}
+
+img {
+    max-width: 100%;
+}
+#home-page h1 {
+    font-size: 400%;
+    color:green;
+}
+
+h2 span {
+    color: rgb(58, 178, 248);
+}
+
+body{
+font-family: Inconsolata;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: green;
+
+}
+
+
+#container {
+    max-width: 800px;
+    margin: auto;
+}
+nav {
+    padding: 10px 0 0 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid grey;
+}
+nav ul li:first-child {
+    padding-left: 0;
+    border-left: 0;
+}
+
+footer {
+    border-top: 1px solid grey;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: grey;
+}
+
+#more {
+    display: none;
+}
